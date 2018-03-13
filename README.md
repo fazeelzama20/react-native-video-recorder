@@ -5,6 +5,11 @@
 This is a video recorder component using the Camera 2 API. It currently does not
 support the older API so only devices with Android Lollipop or higher are supported.
 
+To install this library use command
+
+`npm i --save react-native-video-recorder`
+
+`react-native link`
 ```
 import VideoRecorder from 'react-native-video-recorder';
 
@@ -22,3 +27,4 @@ import VideoRecorder from 'react-native-video-recorder';
 this.refs.recorder.record();
 this.refs.recorder.stop();
 ```
+`
